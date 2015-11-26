@@ -21,6 +21,7 @@
  [a show];
  
  
+```
    PS： OK 和 OTHER 目前是一样的
  
 有三种 Button:
@@ -30,4 +31,3 @@
  
 可自行添加其他Button
 
-```
