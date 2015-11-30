@@ -223,6 +223,9 @@
         if (btn.type == ALERT_BUTTON_CANCEL) style = UIAlertActionStyleCancel;
         
         UIAlertAction *alertAction = [UIAlertAction actionWithTitle:btn.title style:style handler:^(UIAlertAction *action) {
+            if (btn.actionHandler == nil) {
+                
+            }else
             btn.actionHandler((__bridge void *)(action));
             [AlertManager RemoveMyAlertMessage:self];
         }];
